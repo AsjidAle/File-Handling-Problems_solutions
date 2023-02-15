@@ -7,7 +7,7 @@ int main()
     obj << "asd";
     obj.close();
     std::string fileName = "example.txt";
-    // std::remove(fileName.c_str()); // remove the file
+    // std::remove(fileName.c_str()); // remove the entire file
     std::cout<<fileName.c_str();
     if (std::remove(fileName.c_str()) != 0)
     {
